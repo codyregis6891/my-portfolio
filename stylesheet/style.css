@@ -3,3 +3,37 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: #fff0aa;
+}
+
+header {
+    padding: 20px;
+    background: powderblue;
+    color: #282828;
+    border: blue;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+}
+
+header h1 {
+    font-size: 56px;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    padding: 20px 10px 20px 10px;
+    margin-right: 20px;
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}

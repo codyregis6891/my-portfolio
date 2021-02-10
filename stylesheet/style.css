@@ -69,34 +69,27 @@ button:hover {
     border: blue;
     border-style: solid;
     border-width: 2px 2px 4px 2px;
+    margin-bottom: 10px;
 }
 
-.photo2 {
+.photo2-3 {
     height: 320px;
     width: 25%;
     float: right;
     border: blue;
     border-style: solid;
     border-width: 2px 2px 4px 2px;
-}
-
-.photo3 {
-    height: 320px;
-    width: 25%;
-    float: right;
-    border: blue;
-    border-style: solid;
-    border-width: 2px 2px 4px 2px;
+    margin-bottom: 10px;
 }
 
 #about-me {
-    max-width: 1920px;
+
 }
 
 #my-work {
-    max-width: 1920px;
+
 }
 
 #contact-me {
-    max-width: 1920px;
+    
 }

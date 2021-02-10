@@ -62,6 +62,33 @@ button:hover {
     background-color: red;
 }
 
+.photo1 {
+    height: 320px;
+    width: 50%;
+    float: left;
+    border: blue;
+    border-style: solid;
+    border-width: 2px 2px 4px 2px;
+}
+
+.photo2 {
+    height: 320px;
+    width: 25%;
+    float: right;
+    border: blue;
+    border-style: solid;
+    border-width: 2px 2px 4px 2px;
+}
+
+.photo3 {
+    height: 320px;
+    width: 25%;
+    float: right;
+    border: blue;
+    border-style: solid;
+    border-width: 2px 2px 4px 2px;
+}
+
 #about-me {
     max-width: 1920px;
 }

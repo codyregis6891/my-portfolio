@@ -46,7 +46,7 @@ header nav ul li {
     margin-left: 20px;
 }
 
-button {
+header button {
     background-color: #ffa07a;
     border: red;
     border-style: solid;
@@ -57,7 +57,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+header button:hover {
     cursor: pointer;
     background-color: red;
 }
@@ -83,13 +83,102 @@ button:hover {
 }
 
 #about-me {
+    margin: 50px;
+    background-color: powderblue;
+    padding: 25px;
+    color: #282828;
+    border: blue;
+    border-style: solid;
+    border-radius: 25px;
+}
 
+#about-me aside {
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+    padding: 25px;
+    margin: 10px 25px;
+    background-color: #ffa07a;
+    border: red;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#about-me content {
+    font-size: 24px;
 }
 
 #my-work {
+    margin: 50px;
+    background-color: #ffa07a;
+    padding: 25px;
+    color: #282828;
+    border: red;
+    border-style: solid;
+    border-radius: 25px;
+}
 
+#my-work aside {
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+    padding: 25px;
+    margin: 10px 25px;
+    background-color: powderblue;
+    border: blue;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.html {
+    padding: 85px 60px;
+    font-size: 38px;
+    background-color: powderblue;
+    border: blue;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: medium;
+    color: #282828;
+    font-weight: bold;
+    float: right;
+}
+
+.css {
+    padding: 85px;
+    font-size: 38px;
+    background-color: powderblue;
+    border: blue;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: medium;
+    color: #282828;
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+}
+
+.javascript {
+    padding: 85px 37px;
+    font-size: 38px;
+    background-color: powderblue;
+    border: blue;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: medium;
+    color: #282828;
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+}
+
+#my-work button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
 }
 
 #contact-me {
-    
+
 }

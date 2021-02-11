@@ -16,3 +16,4 @@ Below is a screenshot of my portfolio page:
 
 
 The link to my deployed application is below:
+https://codyregis6891.github.io/my-portfolio/

@@ -11,6 +11,8 @@ body {
 .wrapper {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        max-width: fit-content;
 }
 
 header {
@@ -134,7 +136,7 @@ header button:hover {
 
 .coming-soon {
     padding: 85px 15px;
-    font-size: 38px;
+    font-size: 32px;
     background-color: powderblue;
     border: blue;
     border-style: solid;
@@ -147,7 +149,7 @@ header button:hover {
 
 .html {
     padding: 85px 60px;
-    font-size: 38px;
+    font-size: 32px;
     background-color: powderblue;
     border: blue;
     border-style: solid;
@@ -161,7 +163,7 @@ header button:hover {
 
 .css {
     padding: 85px;
-    font-size: 38px;
+    font-size: 32px;
     background-color: powderblue;
     border: blue;
     border-style: solid;
@@ -175,7 +177,7 @@ header button:hover {
 
 .javascript {
     padding: 85px 37px;
-    font-size: 38px;
+    font-size: 32px;
     background-color: powderblue;
     border: blue;
     border-style: solid;
@@ -234,20 +236,20 @@ header button:hover {
 .email {
     float: right;
     padding: 50px;
-    font-size: 36px;
+    font-size: 32px;
     margin-left: 10px;
 }
 
 .linkedin {
     float: right;
     padding: 50px;
-    font-size: 36px;
+    font-size: 32px;
     margin-left: 10px;
 }
 
 .github {
     float: right;
     padding: 50px;
-    font-size: 36px;
+    font-size: 32px;
     margin-left: 10px;
 }

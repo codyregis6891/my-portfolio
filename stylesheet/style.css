@@ -132,6 +132,19 @@ header button:hover {
     border-radius: 25px;
 }
 
+.coming-soon {
+    padding: 85px 15px;
+    font-size: 38px;
+    background-color: powderblue;
+    border: blue;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: medium;
+    color: #282828;
+    font-weight: bold;
+    float: right;
+}
+
 .html {
     padding: 85px 60px;
     font-size: 38px;
@@ -143,6 +156,7 @@ header button:hover {
     color: #282828;
     font-weight: bold;
     float: right;
+    margin-right: 5px;
 }
 
 .css {
@@ -180,5 +194,60 @@ header button:hover {
 }
 
 #contact-me {
+    margin: 50px;
+    background-color: powderblue;
+    padding: 25px;
+    color: #282828;
+    border: blue;
+    border-style: solid;
+    border-radius: 25px;
+}
 
+#contact-me aside {
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+    padding: 25px;
+    margin: 10px 25px;
+    background-color: #ffa07a;
+    border: red;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#contact-me button {
+    background-color: #ffa07a;
+    border: red;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: medium;
+    color: #282828;
+    font-weight: bold;
+}
+
+#contact-me button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.email {
+    float: right;
+    padding: 50px;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.linkedin {
+    float: right;
+    padding: 50px;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.github {
+    float: right;
+    padding: 50px;
+    font-size: 36px;
+    margin-left: 10px;
 }

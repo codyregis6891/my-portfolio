@@ -41,6 +41,7 @@ header nav {
 
 header nav ul {
     list-style-type: none;
+    display: flex;
 }
 
 header nav ul li {
@@ -252,4 +253,48 @@ header button:hover {
     padding: 50px;
     font-size: 32px;
     margin-left: 10px;
+}
+
+@media screen and (max-width: 1491px) {
+    .css {
+        width: 35%;
+        margin: 5px 0 0 0;
+    }
+    .javascript {
+        width: 35%;
+        margin: 5px 5px 0 0;
+    }
+    .html {
+        width: 35%;
+    }
+    .coming-soon {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1203px) {
+    .coming-soon {
+        width: 65%;
+    }
+    .html {
+        width: 65%;
+        margin: 5px 0 0 5px;
+    }
+    .css {
+        width: 65%;
+    }
+    .javascript {
+        width: 65%;
+        margin: 5px 0;
+    }
+    .email {
+        width: 65%;
+    }
+    .linkedin {
+        width: 65%;
+        margin: 5px 0;
+    }
+    .github {
+        width: 65%;
+    }
 }
